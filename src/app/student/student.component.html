@@ -1,0 +1,76 @@
+<nav class="navbar navbar-light bg-dark">
+  <div class="container-fluid">
+    <h2 class="text-light primary py-3">Student Management System</h2>
+    <div class="" d-flex>
+      <button class="btn btn-success" data-toggle="modal" data-bs-toggle="modal" data-bs-target="#exampleModal"> Add
+        student</button>&nbsp
+      <button class="btn btn-warning"> Logout</button>
+    </div>
+  </div>
+</nav>
+
+<!-- table -->
+
+<table class=" table mt-4">
+  <thead>
+    <tr>
+      <th scope="col">S.Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">S.Id</th>
+      <th scope="col">Email</th>
+      <th scope="col">Mobile</th>
+      <th scope="col">City</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        jay
+      </td>
+      <td>
+        jay@gmail.com
+      </td>
+      <td>
+        bhsfjl@jdklqs.com
+      </td>
+      <td>
+        34567890
+      </td>
+      <td>
+        pune
+      </td>
+      <td>
+        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal"> Edit </button>&nbsp;
+        <button class="btn btn-danger"> Delete </button>
+      </td>
+  </tbody>
+
+</table>
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalTitle"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div style="background:blue; " class="modal-header">
+        <h5 class="modal-title" id="exampleModalTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
